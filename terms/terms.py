@@ -34,7 +34,6 @@ def termer(equationhalflist, innerparenthesescall = False):
 	openingparentheses = 0
 	halftermslist = []
 	termsstring = ''
-	toputonotherside = []
 	mynewstring = ''
 	#add all of the items in equationhalflist to a new list* split into terms *termslist
 	#also add the signs to each of the terms
