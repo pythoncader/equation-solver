@@ -1,4 +1,5 @@
 def remover(mystring):
+  print(f"string: {mystring}")
 	for i in range(0, len(mystring)):
 		if mystring[i].isdigit() or mystring[i] == 'x':
 			return mystring

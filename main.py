@@ -1,15 +1,15 @@
 import sys
 import time
 
-from equationsolver.reused import toputonothersider
+from reused import toputonothersider
 
-from equationsolver.startup import duplicateequalsigns, equationsidevalidator, signvalidator, halfequation
+from startup import duplicateequalsigns, equationsidevalidator, signvalidator, halfequation
 
-from equationsolver.terms import terms, termsplitter
+from terms import terms, termsplitter
 
-from equationsolver.sidesplitter import xsider, constantsider, sidecombiner
+from sidesplitter import xsider, constantsider, sidecombiner
 
-from equationsolver.signsolvers import multiplication, division
+from signsolvers import multiplication, division
 from reused.myfunctions import clear
 try:
   runtimes = 0
