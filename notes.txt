@@ -1,0 +1,4 @@
+- need linear (left origin) order of operations: combine multiplication and division?
+- division inverse operations for x needs work
+- multiplication of and classification of x values also needs work
+- add quadratic support
