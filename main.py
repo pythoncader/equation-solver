@@ -92,7 +92,7 @@ try:
 
       answer, xsidefinal, constantsidefinal = sidecombiner.combiner(xsidelist, constantsidelist)
 
-      print('Answer is: ', answer, '\n\n')
+      print('\n\nAnswer is: ', answer, '\n\n')
       time.sleep(2)
       
     elif equationsidevalidatorreturnvalue == "simplify":
@@ -100,7 +100,7 @@ try:
       print('\nSimplifying... (in main.py) \n')
 
 
-    runagain = str(input('\nRun again? (y/n):  '))
+    runagain = str(input('Run again? (y/n):  '))
     runagain_l = runagain.lower()
     if 'y' in runagain_l:
       print("Running program...")
