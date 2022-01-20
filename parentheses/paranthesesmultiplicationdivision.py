@@ -1,4 +1,4 @@
-import equationsolver.signsolvers.multiplication as m1
+import signsolvers.multiplication as m1
 
 def solver(parantheses, multiplication, division, xtrue = False):
 	if multiplication == True and division == False:

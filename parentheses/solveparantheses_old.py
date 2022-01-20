@@ -1,7 +1,7 @@
-import equationsolver.parantheses.xparanthesessolver as xparanthesessolver
-import equationsolver.reused.blankstringremover as blankstringremover
-import equationsolver.parantheses.paranthesesmultiplicationdivision as paranthesesmultiplicationdivision
-import equationsolver.terms.terms as terms
+import parantheses.xparanthesessolver as xparanthesessolver
+import reused.blankstringremover as blankstringremover
+import parantheses.paranthesesmultiplicationdivision as paranthesesmultiplicationdivision
+import terms.terms as terms
 
 def parantheses(termslist):
 	oldparanthesesterms = []

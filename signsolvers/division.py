@@ -43,22 +43,7 @@ def quotienter(mylist):
         divisionterms.clear()
       
       elif 'x' not in divisionterms[0] and 'x' in divisionterms[1]:
-        print('hello: ', divisionterms)
-        if 'x' != divisionterms[1]: 
-          newstring = divisionterms[1].replace('x', '')
-          divisionterms[1] = newstring
-        elif 'x' == divisionterms[1]:
-          newstring = divisionterms[1].replace('x', '1')
-          divisionterms[1] = newstring
-
-        first = float(divisionterms[0])
-        second = float(divisionterms[1])
-        divided = first / second
-        print(str(divided) + 'x')
-    
-        mylist[i] = str(divided) + 'x'
-        mylist[i - 1] = ''
-
+        # multiply other side by the second division term
         divisionterms.clear()
       
       elif 'x' in divisionterms[0] and 'x' in divisionterms[1]:

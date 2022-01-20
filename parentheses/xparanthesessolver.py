@@ -1,5 +1,6 @@
-import equationsolver.parantheses.paranthesesmultiplicationdivision as paranthesesmultiplicationdivision
-import equationsolver.signsolvers.multiplication as multiplication
+import parantheses.paranthesesmultiplicationdivision as paranthesesmultiplicationdivision
+import signsolvers.multiplication as multiplication
+
 def xparantheses(termslist, paranthesesterms, parantheses, firsthalftermslist, oldparanthesesterms, paranthesesstar):
 	xmultiply = False
 	xdivide = False

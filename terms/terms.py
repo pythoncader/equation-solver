@@ -1,6 +1,6 @@
-import equationsolver.parentheses.solveparentheses as solveparentheses
-import equationsolver.reused.blankstringremover as blankstringremover
-import equationsolver.terms.signremover as signremover
+import parentheses.solveparentheses as solveparentheses
+import reused.blankstringremover as blankstringremover
+import terms.signremover as signremover
 
 
 def isdigitatend(mystring):

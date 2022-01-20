@@ -1,4 +1,4 @@
-import equationsolver.terms.terms as terms
+import terms.terms as terms
 def parantheses(halftermslist):
     paranthesesterms_indexes = []
     runtime = 0
