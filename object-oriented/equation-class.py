@@ -1,6 +1,7 @@
 class equation:
-    def __init__(self, equation): #initiate the object with a string equation
-        self.equation
+    def __init__(self, equation, variable="x"): #initiate the object with a string equation
+        self.equation = equation
+        self.variable = variable
 
     def split():
         #split into terms
